@@ -27,6 +27,14 @@ footer {
   margin-block-start: 4em;
 }
 
+a:any-link {
+  color: #276f95;
+}
+
+a:hover {
+  text-decoration-thickness: 0.1em;
+}
+
 small {
   font-size: 0.8em;
 }
