@@ -83,6 +83,10 @@ small {
   border-radius: 3px;
 }
 
+.photo-item a:any-link {
+  color: black;
+}
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -91,4 +95,9 @@ small {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.float-left {
+  float: left;
+  margin-inline-end: 0.5ch;
 }
